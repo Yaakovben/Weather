@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-size: cover; /* מכסה את כל המסך */
+  background-position: center; /* ממקם את התמונה במרכז */
+}
+
+#root{
+ 
+  background-color: #E4E4E4;
+}
+
+.body{
+  
+}
+
+
+.app{
+  background-image: url('./imges/pexels-photo-531756.webp');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100v;
+  border: 2px solid rgb(0, 0, 0);
+  gap: 250px;
+}
+
+.unit button{
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  background-color:whitesmoke;
+
+}
+
+.search input {
+  height: 45px;
+  width: 450px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.search input:hover{background-color:rgba(255, 255, 255, 0.516);}
+.unit button:hover{background-color:rgba(255, 255, 255, 0.271);}
+
+
+
